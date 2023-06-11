@@ -4,7 +4,7 @@ const signalStrength = ["Bad", "Ok", "Good"];
 function deviceInfo(deviceId) {
     const now = new Date();
     return {
-        connected: randomIntFromInterval(0, 1),
+        connected: !!randomIntFromInterval(0, 1),
         device: deviceId,
         last_measurement: {
             meter_id: "Reported Meter ID as source of measurement",
