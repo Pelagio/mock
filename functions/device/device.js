@@ -12,7 +12,7 @@ function deviceInfo(deviceId) {
             value: randomIntFromInterval(1000, 100000),
             value_type: "What kind of value is it, Daily tariff, energy, etc",
         },
-        signal_strength: signalStrength[randomIntFromInterval(0, 2)],
+        signal_strength: signalStrength[0], //signalStrength[randomIntFromInterval(0, 2)],
     };
 }
 
